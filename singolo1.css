@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "Lato";
+    src: url("assets/LatoItalic.eot");
+    src: url("assets/LatoItalic.eot?#iefix")format("embedded-opentype"),
+    url("assets/LatoItalic.woff") format("woff"),
+    url("assets/LatoItalic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: normal;
+    }
+    
+    @font-face {
+    font-family: "Lato";
+    src: url("assets/LatoLight.eot");
+    src: url("assets/LatoLight.eot?#iefix")format("embedded-opentype"),
+    url("assets/LatoLight.woff") format("woff"),
+    url("assets/LatoLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: lighter;
+    }
+    
+    @font-face {
+    font-family: "Lato";
+    src: url("assets/LatoBoldItalic.eot");
+    src: url("assets/LatoBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("assets/LatoBoldItalic.woff") format("woff"),
+    url("assets/LatoBoldItalic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: bold;
+    }
+    
+    @font-face {
+    font-family: "Lato";
+    src: url("assets/Italic/LatoLightItalic.eot");
+    src: url("assets/Italic/LatoLightItalic.eot?#iefix")format("embedded-opentype"),
+    url("assets/Italic/LatoLightItalic.woff") format("woff"),
+    url("assets/Italic/LatoLightItalic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: lighter;
+    }
+    
+    body{
+    margin:auto;
+    padding:auto;
+    border:auto;
+    font-family: "Lato";
+    -webkit-margin-before-collapse: discard;
+    max-width: 1020px;
+    }
+    
+    .header{
+    background-color: #292d37;
+    color: white;
+    height: 95px;
+    }
+    
+    .logotip{
+    font-size: 23.5px;
+    padding-left: 41px;
+    padding-top: 31.9px;
+    font-weight: bolder;
+    cursor: default;
+    }
+    
+    .lg{
+    cursor: pointer;
+    }
+    
+    .star{
+    color:red;
+    }
+    
+    .panel{
+    display: flex;
+    float: right;
+    margin-top: -32.5px;
+    font-size: 11.45px;
+    letter-spacing: 0.006px;
+    padding-right: 13.5px;
+    font-weight: bolder;
+    
+    
+    }
+    
+    .panel li a{
+    padding-right: 27.5px;
+    padding-left: 3.5px;
+    color:white;
+    cursor: pointer;
+    }
+    
+    .panel .h{
+    padding-right: 27.5px;
+    padding-left: 0;
+    list-style-type: none;
+    color:red;
+    cursor: pointer;
+    }
+    
+    .panel li{
+    color: darkslategrey;
+    }
+    
+    .line{
+    background-color: #323746;
+    padding-top: -6px;
+    border: 0;
+    margin-top: 39px;
+    height: 4px;
+    }
