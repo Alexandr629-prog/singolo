@@ -1,0 +1,287 @@
+@font-face {
+    font-family: "Lato";
+    src: url("assets/LatoRegular.eot");
+    src: url("assets/LatoRegular.eot?#iefix")format("embedded-opentype"),
+    url("assets/LatoRegular.woff") format("woff"),
+    url("assets/LatoRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+    
+    @font-face {
+    font-family: "Lato";
+    src: url("assets/LatoBold.eot");
+    src: url("assets/LatoBold.eot?#iefix")format("embedded-opentype"),
+    url("assets/LatoBold.woff") format("woff"),
+    url("assets/LatoBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+    }
+    
+    @font-face {
+    font-family: "Lato";
+    src: url("assets/LatoItalic.eot");
+    src: url("assets/LatoItalic.eot?#iefix")format("embedded-opentype"),
+    url("assets/LatoItalic.woff") format("woff"),
+    url("assets/LatoItalic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: normal;
+    }
+    
+    @font-face {
+    font-family: "Lato";
+    src: url("assets/LatoLight.eot");
+    src: url("assets/LatoLight.eot?#iefix")format("embedded-opentype"),
+    url("assets/LatoLight.woff") format("woff"),
+    url("assets/LatoLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: lighter;
+    }
+    
+    @font-face {
+    font-family: "Lato";
+    src: url("assets/LatoBoldItalic.eot");
+    src: url("assets/LatoBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("assets/LatoBoldItalic.woff") format("woff"),
+    url("assets/LatoBoldItalic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: bold;
+    }
+    
+    @font-face {
+    font-family: "Lato";
+    src: url("assets/Italic/LatoLightItalic.eot");
+    src: url("assets/Italic/LatoLightItalic.eot?#iefix")format("embedded-opentype"),
+    url("assets/Italic/LatoLightItalic.woff") format("woff"),
+    url("assets/Italic/LatoLightItalic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: lighter;
+    }
+    body{
+        font-family: Lato;
+        max-width: 1020px;
+        margin: auto;
+        border: auto;
+        padding: auto;
+        -webkit-margin-before-collapse: discard;
+        
+    }
+    .Portfolio{background-color:#2d303a;
+        height: 842.5px;
+        
+        
+    }
+    .portfolio{
+        color: #666d89;
+        position: relative;
+        top: 37px;
+        left: 38px;
+    }
+
+    .mollis{color: #666d89;
+        position: relative;
+        left: 40px;
+        top: 37px;
+        font-size: 17.5px;
+    }
+    .mark li{
+    font-size: 13px;
+    word-spacing: 0px;
+    display: inline;
+    cursor: pointer;
+    border-radius: 3px;
+    
+}
+
+    .all{
+        border: 1px solid #c6c6c6;
+        color:  #c6c6c6;
+        margin-left: 10px;
+        position: relative;
+        top: 34px;
+        left: -8px;
+        padding-left: 5px;
+        padding-right: 7px;
+        padding-top: 4px;
+        padding-bottom: 3px;
+        
+        
+    }
+    .web{
+        border: 1px solid #717897;
+        color: #717897;
+        position: relative;
+        top: 33px;
+        left: -2px;
+        padding-left: 5px;
+        padding-right: 2px;
+        padding-top: 3px;
+        padding-bottom: 4px;}
+
+    .graphic{
+        border: 1px solid #717897;
+        color: #717897;
+        position: relative;
+        top: 33px;
+        left: 4px;
+        padding-left: 3px;
+        padding-right: 1px;
+        padding-top: 3px;
+        padding-bottom: 4px;}
+
+   .artwork{
+      border: 1px solid #717897;
+      color: #717897;
+      position: relative;
+      top: 33px;
+      left: 10px;
+      padding-left: 4px;
+      padding-right: 5px;
+      padding-top: 3px;
+      padding-bottom: 4px;
+  }
+.person{background: #2d303a; /* Цвет фона */
+    padding: 10px;/* Поля вокруг */
+    display: block; /* Блочный элемент */
+    width: 150px;
+    float: left; /* Блоки выстраиваются по горизонтали */
+    margin-left: 30px;
+    margin-right: 40px;
+    margin-top: 28px;
+    margin-bottom: -33px;}
+  
+
+.image{
+    width: 980px;
+    height: 640px;
+    
+}
+.line1{
+    border: none;
+    height: 4px;
+    margin-top: 70px;
+    position: relative;
+    right: 0px;
+    top: -1.5px;
+    width: 1020px;
+    background-color:#323746
+   }
+   .About-Us{background-color: #f2f2f2;
+    height: 728px;
+    -webkit-margin-before-collapse: discard;
+}
+.about{color: #666d89;
+  position: relative;
+  top: 63px;
+  left: 41px;
+  font-size: 30px;}
+
+.fursee{color: #666d89;
+  position: relative;
+  top: 69px;
+  left: 41px;
+  font-size: 17.9px;
+  width: 959px;
+  line-height: 0.8;
+ }   
+.fursee2{color: #666d89;
+  position: relative;
+  top: 64px;
+  left: 41px;
+  font-size: 17.45px;
+  width: 959px;
+}
+
+.photo2{
+    float:left;
+    margin-top: 94px;
+    width: 309px;
+    margin-right: -29px;
+}
+
+.social-network2{
+    float: left;
+    margin-right: 8px;
+    margin-left: 0;
+    margin-top: -15px;
+    cursor: pointer;
+}
+
+#face1{
+    
+    margin-top: -7px;
+}
+#face2{
+    
+    margin-top: -6px;
+}
+#face3{
+    
+    margin-top: -7px;
+}
+#face4{
+    
+    margin-top: -7px;
+}
+#tvit1{margin-top: -5px;}
+#tvit2{margin-top: -5px;}
+#tvit3{margin-top: -5px;}
+#tvit4{margin-top: -5px;}
+.adam{
+    position: relative;
+    font-weight: bold;
+    font-size: 18px;
+    top: -5px;
+    left: -1px;
+  }
+.adam-txt{position: relative;
+    font-size: 12px;
+    top: -15px;
+    left: 0px;
+    line-height: -1.5px;
+    width: 304px;
+    line-height: 21px;}
+  
+.desmont{position: relative;
+        font-weight: bold;
+        font-size: 18px;
+        top: -8px;
+        left: -1px;
+ }
+
+ .desmont-txt1{position: relative;
+  font-size: 12.6px;
+  top: -18px;
+  left: 0px;
+  line-height: -1.5px;
+  width: 304px;
+  line-height: 21px;}
+
+  .desmont-txt2{position: relative;
+    font-size: 12.1px;
+    top: -28px;
+    left: 0px;
+    line-height: -1.5px;
+    width: 304px;
+    line-height: 21px;}
+.scolara{position: relative;
+    font-weight: bold;
+    font-size: 18.5px;
+    top: -7px;
+    left: -1px;}
+  .scolara-txt{position: relative;
+    font-size: 12px;
+    top: -18px;
+    left: 0px;
+    line-height: -1.5px;
+    width: 304px;
+    line-height: 21px;}      
+.line2{
+  border: none;
+  height: 4px;
+  margin-top: 70px;
+  position: relative;
+  right: 0px;
+  top: 16.5px;
+  width: 1020px;
+  background-color: #f2f2f2;}   
